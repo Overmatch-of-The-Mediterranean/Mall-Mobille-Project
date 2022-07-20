@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+}
+
+.iconfont {
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.icon-xiangzuo_o {
+    position: absolute;
+    left: 15px;
+}
+
+.icon-aixin {
+    position: absolute;
+    right: 70px;
+}
+
+.icon-31zhuanfa {
+    position: absolute;
+    right: 30px;
+}

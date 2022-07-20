@@ -1,0 +1,9 @@
+<div class="main">
+    <ul class="main-list">
+        <li class="main-item">我的行程计划<i class="iconfont icon-xiangyou"></i></li>
+        <li class="main-item">我的收藏<i class="iconfont icon-xiangyou"></i></li>
+        <li class="main-item">售后于客服<i class="iconfont icon-xiangyou"></i></li>
+        <li class="main-item">我的优惠券<i class="iconfont icon-xiangyou"></i></li>
+        <li class="main-item">常用旅客管理<i class="iconfont icon-xiangyou"></i></li>
+    </ul>
+</div>

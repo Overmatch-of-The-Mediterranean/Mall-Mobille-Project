@@ -1,0 +1,59 @@
+{{each contents}}
+<div class="main">
+    <img src="{{$value.img}}" alt="" class="header-img">
+    <div class="center">
+        <div class="header-title">
+            <p>{{$value.title}}</p>
+        </div>
+        <button class="header-title-btn1">{{$value.tags[0]}}</button>
+        <button class="header-title-btn2">{{$value.tags[1]}}</button>
+        <div class="header-title-done-container">
+            <span class="header-title-done">浏览{{$value.vistor_counts}}</span>
+            <span class="header-title-done">已售{{$value.sold_counts}}</span>
+        </div>
+    </div>
+
+    <div class="product-introduction">
+        <h3 class="product-title">产品简介</h3>
+        <div class="product-text-container">
+            <div class="center">
+                <p class="product-text">{{$value.intros[0]}}</p>
+                <p class="product-text">{{$value.intros[1]}}</p>
+                <p class="product-text">{{$value.intros[2]}}</p>
+                <p class="product-text">{{$value.intros[3]}}</p>
+                <p class="product-text">{{$value.intros[4]}}</p>
+                <p class="product-text">{{$value.intros[5]}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-introduction">
+        <h3 class="product-title">预定流程</h3>
+        <div class="product-text-container">
+            <div class="center">
+                <span>提交订单</span>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <span>在线完成支付</span>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <span>联系商家确认</span>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <span>放心出发</span>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <i class="iconfont icon-xiangyou grey"></i>
+                <span>收到确认单据</span>
+            </div>
+        </div>
+    </div>
+    <div class="product-introduction">
+        <h3 class="product-title">退款流程</h3>
+        <div class="product-text-container">
+            <div class="center">
+                <p>{{$value.refund}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="personal-page" class="personal-layout">
+        <!-- 头部 -->
+        <div class="header-layout">
+            {{include './components/header/header.art'}}
+        </div>
+
+        <!-- 主体 -->
+        <div class="main-layout">
+            {{include './components/main/main.art'}}
+        </div>
+
+        <!-- 标签栏 -->
+        <div class="tabbar-layout">
+            <% include('../../components/tabbar/tabbar.art',{active:'personal'}) %>
+        </div>
+
+        <!-- 返回顶部 -->
+        <div id="backtop" class="backtop-layout">
+
+        </div>
+    </div>
+</body>
+
+</html>

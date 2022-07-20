@@ -1,0 +1,9 @@
+body {
+    background-color: #fff;
+}
+
+.personal-layout {
+    overflow-y: auto !important;
+    height: 100%;
+    padding-bottom: 48px;
+}

@@ -1,0 +1,11 @@
+<div class="footer">
+    <a href="javascript:;" class="btn1">
+        <i class="iconfont icon-shouye1 pdr-red"></i>
+        <span>咨询</span>
+    </a>
+    <a href="javascript:;" class="btn2">
+        <i class="iconfont icon-aixin no-posi pdr-red"></i>
+        <span>收藏</span>
+    </a>
+    <a href="javascript:;" class="btn3">立即预定</a>
+</div>

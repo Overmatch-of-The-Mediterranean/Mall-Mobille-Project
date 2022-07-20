@@ -1,0 +1,14 @@
+<div class="tabbar">
+    <a href="./index.html" class="tabbar-item {{active==='index' ? 'tabbar-item-active':''}}">
+        <i class="iconfont icon-shouye"></i>
+        <span>首页</span>
+    </a>
+    <a href="./destination.html" class="tabbar-item {{active==='destination' ? 'tabbar-item-active':''}}">
+        <i class="iconfont icon-mudedi"></i>
+        <span>目的地</span>
+    </a>
+    <a href="./personal.html" class="tabbar-item {{active==='personal' ? 'tabbar-item-active':''}}">
+        <i class="iconfont icon-gerenzhongxin"></i>
+        <span>我的</span>
+    </a>
+</div>

@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+}
+
+.main-list,
+.main-item {
+    width: 100%;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    height: 40px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.main-item .iconfont {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+}

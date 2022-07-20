@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 0;
+}
+
+.content-item {
+    position: relative;
+    width: 50%;
+    padding: 0 0 20px 20px;
+}
+
+.content-img {
+    width: 100%;
+}
+
+.content-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 20px;
+    right: 0;
+    top: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}

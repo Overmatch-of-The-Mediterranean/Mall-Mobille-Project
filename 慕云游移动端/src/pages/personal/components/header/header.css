@@ -1,0 +1,23 @@
+.header-bgc {
+    height: 140px;
+    background: url(images/bgc.png) no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 60px; */
+
+}
+
+.header-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}

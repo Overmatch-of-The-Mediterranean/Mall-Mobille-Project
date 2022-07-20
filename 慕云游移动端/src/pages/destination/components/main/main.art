@@ -1,0 +1,9 @@
+<!-- 选项卡 -->
+<div class="tab-layout">
+    {{include '../tab/tab.art'}}
+</div>
+
+<!-- 内容 -->
+<div class="content-layout" id="destination-content">
+    {{include '../../../../components/loading/loading.art'}}
+</div>
